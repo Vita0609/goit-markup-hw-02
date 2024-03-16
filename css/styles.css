@@ -30,7 +30,7 @@ img {
 }
 .button {
     cursor: pointer;
-    color: #fffff;
+    color: #fff;
     background-color: #4d5ae5;
     padding: 16px 32px;
     border-radius: 4px;
@@ -71,4 +71,33 @@ TITLES
 .secion {
     padding: 120px 156px;
 }
-
+.section-title {
+margin-bottom: 72px;
+text-align: center;
+}
+/*
+HEADER
+*/
+.header {
+    padding: 24px 156px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-nov {
+    display: flex;
+    align-items: center;
+}
+.header-list {
+    display: flex;
+    gap: 40px;
+}
+.header-logo {
+    margin-right: 75px;
+}
+.header-link {
+    line-height: 1.5;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+    transition: 0.5s ease all;
+}
