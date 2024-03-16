@@ -5,6 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    crossorigin="anonymous" referrerpolicy="no referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fronts.gstatic.com" crossorigin>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
     <body>
@@ -12,20 +20,20 @@
         <!--
            Шапка сайта
         -->
-        <header>
+        <header class="header">
                
-                <nav>
-                    <a href="./index.html">WebStudio</a> 
-                   <ul>
-                       <li><a href="#">Studio</a></li> 
-                       <li><a href="#">Portfolio</a></li>
-                       <li><a href="#">Contacts</a></li>
+                <nav class="header-nav">
+                    <a href="./index.html" class="logo"><span>Web</span>Studio</a> 
+                   <ul class="header-info">
+                       <li><a href="#" class="header-studio">Studio</a></li> 
+                       <li><a href="#" class="header-studio">Portfolio</a></li>
+                       <li><a href="#" class="header-studio">Contacts</a></li>
                    </ul>
                 </nav>
-                <address>
-                    <ul>
-                       <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                       <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                <address class="address-header">
+                    <ul> 
+                       <li><a href="mailto:info@devstudio.com" class="email-link">info@devstudio.com</a></li>
+                       <li><a href="tel:+110001111111" class="email-link">+11 (000) 111-11-11</a></li>
                     </ul>
                 </address>
         </header>
@@ -33,18 +41,18 @@
       <!--
         Все содержимое сайта
       -->
-      <main>
+      <main class="main">
         <!--
             Первый экран
         -->
-        <section>
-           <h1>Effective Solutions for Your Business</h1>
-           <button type="button">Order Service</button>
+        <section class="top">
+           <h1 class="title-xl top-title">Effective Solutions for Your Business</h1>
+           <button class="button" type="button">Order Service</button>
         </section>
         <!--
             Второй экран
         -->
-             <section>
+             <section class="Advantages section">
                 <h2>Advantages</h2>
              
                 <ul>
@@ -78,41 +86,71 @@
         <!--
             Команды
         -->
-        <section>
-             <h2>Our Team</h2>
-                <ul>
-                    <li class>
-                        <img src="./images/01.jpg" alt="Mark Guerrero" width="264" />
-                         <h3>Mark Guerrero</h3>
-                        <p>
-                            Product Designer
-                        </p>
+        <section class="our-team section">
+             <h2 class="our-team-title">Our Team</h2>
+                <ul class="our-team-list">
+                    <li class="team-member">
+                         <div class="team-member-info">
+                          <img src="./images/01.jpg" alt="Mark Guerrero" width="264" />
+                            <h3 class="title-m team-member-title">Mark Guerrero</h3>
+                            <p class="text">Product Designer</p>
+                         </div>
                     </li>
-                    
-                    <li>
-                        <img src="./images/02.jpg" alt="Tom Ford" width="264" />
-                        <h3>Tom Ford</h3>
-                        <p>                          
-                            Frontend Developer
-                        </p>
+                    <li class="team-member">
+                         <div class="team-member-info">
+                           <img src="./images/02.jpg" alt="Tom Ford" width="264" />
+                            <h3 class="title-m team-member-title">Tom Ford</h3>
+                            <p class="text">Frontend Developer</p>                      
+                         </div>   
+                        
                     </li>
-                    <li>
-                        <img src="./images/03.jpg" alt="Camila Garcia" width="264" />
-                        <h3>Camila Garcia</h3>
-                        <p>
-                            Marketing
-                        </p>
+                    <li class="team-member">
+                         <div class="team-member-info">
+                              <img src="./images/03.jpg" alt="Camila Garcia" width="264" />
+                               <h3 class="title-m team-member-title">Camila Garcia</h3>
+                               <p class="text">Marketing</p>
+                         </div>
                     </li>
-                    <li>
-                        <img src="./images/04.jpg" alt="Daniel Wilson" width="264" />
-                        <h3>Daniel Wilson</h3>
-                        <p>
-                            UI Designer
-                        </p>
-                    </li>
+                    <li class="team-member">
+                        <div class="team-member-info">
+                             <img src="./images/04.jpg" alt="Daniel Wilson" width="264" />
+                             <h3 class="title-m team-member-title">Daniel Wilson</h3>
+                             <p class="text">UI Designer </p>
+                        </div>
+                     </li>
                 </ul>
         </section>
       </main>
+      <!-- Портфолио-->
+      <section class="our-portfolio section">
+        <h2 class="title-1 section-title">Our Portfolio</h2>
+        <ul class="portfolio-item">
+            <li class="portfolio-item">
+                <img src="./images/banking.jpg" alt="Banking App" width="360">
+                <h3 class="title-m portfolio-item">Banking App</h3>
+                <p class="text">App</p>
+            </li>
+            <li class="portfolio-item">
+                <img src="./images/cashless.jpg" alt="Cashless Payment" width="360">
+                <h3 class="title-m portfolio-item">Cashless Payment</h3>
+                <p class="text">Marketing</p>
+            </li>
+            <li class="portfolio-item">
+                <img src="./images/meditatien.jpg" alt="Meditation App" width="360">
+                <h3 class="title-m portfolio-item">Meditation App</h3>
+                <p class="text">App</p>
+            </li>
+            <li class="portfolio-item">
+                <img src="./images/taxi.jpg" alt="Taxi Service" width="360">
+                <h3 class="title-m portfolio-item">Taxi Service</h3>
+                <p class="text">Marketing</p>
+            </li>
+            <li class="portfolio-item">
+                <img src="./images/screen.jpg" alt="Screen Illustrations" width="360">
+                <p class="text">Design</p>
+            </li>
+
+      </section>
       <!--
         Футер
       -->
