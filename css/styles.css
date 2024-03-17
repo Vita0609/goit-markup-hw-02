@@ -136,4 +136,47 @@ HEADER
     opacity: 1;
 }
 /* TOP SECTION */
+.top {
+    padding: 188px 0;
+    text-align: center;
+    background: #2e2f42;
+}
+.top-title {
+    color: #fff;
+    max-width: 496px;
+    margin: 0 auto 48px;
+}
+/*ADVANTAGES*/
+
+.advantage {
+    /* flex: 01 auto; */
+    display: inline-block;
+    width: calc(25%-24px);
+}
+ .advantage:not(:last-child) {
+    margin-right: 24px;
+ }
+ .advantage-title {
+    display: block;
+    margin-bottom: 8px;
+ }
+ /* OUR TEAM */
+ .our-team {
+    background-color: #f4f4fd;
+ }
+ .team-member {
+    /* flex: 01 auto; */
+    display: inline-block;
+    width: calc(25%-24px);
+    background: #fff;
+    box-shadow: 0px 2px 1px 0px #2e2f4214, 0px 1px 1px 0px  #2e2f4229, 0px 1px 6px 0px  #2e2f4214;
+    }
+ .team-member img {
+    width: 100%;
+ }
+ .team-member:not(:last-child) {
+    margin-right: 24px;
+ }
+
+
 
