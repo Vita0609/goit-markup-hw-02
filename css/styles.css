@@ -40,7 +40,7 @@ img {
 .button:hover {
     background-color: #404bbf;
 }
-hi,
+h1,
 h2,
 h3,
 h4 {
@@ -147,6 +147,10 @@ HEADER
     margin: 0 auto 48px;
 }
 /*ADVANTAGES*/
+.advantages-list {
+/* display: flex;
+gap: 24px;
+}
 
 .advantage {
     /* flex: 01 auto; */
@@ -164,6 +168,10 @@ HEADER
  .our-team {
     background-color: #f4f4fd;
  }
+ .our-team-list {
+    /* display: flex;
+    gap: 24px; */ 
+ }
  .team-member {
     /* flex: 01 auto; */
     display: inline-block;
@@ -177,6 +185,15 @@ HEADER
  .team-member:not(:last-child) {
     margin-right: 24px;
  }
+ .team-member-info {
+    text-align: center;
+    padding: 32px 16px;
+ }
+ .team-member-title {
+    display: block;
+    margin-bottom: 8px;
+ }
+ /* OUR PORTFOLIO */
 
 
 
