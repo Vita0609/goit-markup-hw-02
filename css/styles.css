@@ -229,6 +229,8 @@ gap: 24px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     line-height: 1.17;
+    font-size: 18px;
+    letter-spacing: 0.03em;
     padding: 100px 156px;
     background-color:#2e2f42;
     }
@@ -238,8 +240,9 @@ gap: 24px;
 }
 .footer-text {
     max-width: 262px;
-    color: #f4f4fd;
+    color: #4d5ae5;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-decoration: uppercase;
 }
 
