@@ -30,6 +30,7 @@ img {
     color: #2e2f42;
 }
 .button {
+    font-family: "Roboto", sans-serif;
     cursor: pointer;
     color: #fff;
     background-color: #4d5ae5;
